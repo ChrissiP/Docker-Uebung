@@ -18,7 +18,7 @@ Dieser Docker Compose-Code erstellt eine Containerumgebung mit einer MongoDB-Dat
 - Dieser Dienst hängt von keinem anderen Dienst ab.
 
 # backend:
-- Erstellt einen Container namens "karin" aus dem Build-Kontext "../backend" und dem Dockerfile in diesem Kontext.
+- Erstellt einen Container namens "christina" aus dem Build-Kontext "../backend" und dem Dockerfile in diesem Kontext.
 - Der Host-Port 3000 wird auf den Container-Port 3000 weitergeleitet, um auf den Backend-Dienst zuzugreifen.
 - Dieser Dienst hängt von dem Dienst "mongodb" ab, um sicherzustellen, dass die MongoDB-Datenbank verfügbar ist, bevor der Backend-Dienst gestartet wird.
 
